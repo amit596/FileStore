@@ -190,7 +190,7 @@ async def start_command(client: Client, message: Message):
                     except Exception as e:
                         print(f"Error deleting message {snt_msg.id}: {e}")
 
-            try:
+            #try:
                 reload_url = (
                     f"https://t.me/{client.username}?start={message.command[1]}"
                     if message.command and len(message.command) > 1
@@ -205,7 +205,7 @@ async def start_command(client: Client, message: Message):
                     reply_markup=keyboard
                 )
             except Exception as e:
-                print(f"Error updating notification with 'Get File Again' button: {e}")
+                print(f"Error updating notification with 'Get File Again' button: {e}")#
     else:
         reply_markup = InlineKeyboardMarkup(
             [
