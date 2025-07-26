@@ -40,10 +40,10 @@ START_PIC = os.environ.get("START_PIC", "https://envs.sh/em9.jpg")
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/emH.jpg")
 
 #--------------------------------------------
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "gplinks.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "28a9d50fc1c6c070c68992e157fcd0fd9d3a9f2a")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "papajiurl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "ef0b2771c0566718523c43928b4119fdfff25c8a")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 43200)) # Add time in seconds
-TUT_VID = os.environ.get("TUT_VID","https://t.me/how_to_open_link_ak/16")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/how_to_open_link_ak")
 
 #--------------------------------------------
 
