@@ -23,9 +23,9 @@ APP_ID = int(os.environ.get("APP_ID", "29171167")) #Your API ID from my.telegram
 API_HASH = os.environ.get("API_HASH", "7ea2149629e445936619f06a3c0dc716") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002247983720")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "The_SonGoku") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "7251898668")) # Owner id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003023903533")) #Your db channel Id
+OWNER = os.environ.get("OWNER", "NullZoro") # Owner username without @
+OWNER_ID = int(os.environ.get("OWNER_ID", "8371607189")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
@@ -36,8 +36,8 @@ FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/+U9ABfC7hu1EyZjU1")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://envs.sh/em9.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/emH.jpg")
+START_PIC = os.environ.get("START_PIC", "https://envs.sh/em9.jpg https://i.ibb.co/WvMBLwCM/photo-2025-09-03-01-38-01-7545671344755572752.jpg https://i.ibb.co/WvMBLwCM/photo-2025-09-03-01-38-01-7545671344755572752.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/emH.jpg https://i.ibb.co/YBbhWySS/photo-2025-09-03-01-37-57-7545671404885114896.jpg")
 
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
@@ -48,8 +48,8 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/how_to_open_link_ak/17")
 #--------------------------------------------
 
 #--------------------------------------------
-HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @akmovieshubbackup\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/akmoviebotz>Akmoviebotz</a></blockquote></b>"
-ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/akmovieshubbackup>AkMoviesHubBackup</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/AkMoviesHubBackup>AkMoviesHubBackup</a>\n◈ ᴀᴅᴜʟᴛ : <a href=https://t.me/+cPU1noVvMthhOTg9>ᴘᴏʀɴʜ</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/akmoviebotz>akmoviebotz</a></blockquote></b>"
+HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @akmovieshubbackup\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/zoroversex>ZoroVerseX</a></blockquote></b>"
+ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/zoroversex>ZoroVerseX</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/AkMoviesHubBackup>𝘈𝘬𝘔𝘰𝘷𝘪𝘦𝘴𝘏𝘶𝘣𝘉𝘢𝘤𝘬𝘶𝘱</a>\n◈ ᴀᴅᴜʟᴛ : <a href=https://t.me/+cPU1noVvMthhOTg9>ᴘᴏʀɴʜ</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/akmoviebotz>akmoviebotz</a></blockquote></b>"
 #--------------------------------------------
 #--------------------------------------------
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n<blockquote> ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote></b>")
@@ -89,10 +89,10 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 
 #==========================(BUY PREMIUM)====================#
 
-OWNER_TAG = os.environ.get("OWNER_TAG", "The_SonGoku")
+OWNER_TAG = os.environ.get("OWNER_TAG", "nullzoro")
 UPI_ID = os.environ.get("UPI_ID", "kumar.4096@superyes")
-QR_PIC = os.environ.get("QR_PIC", "https://telegra.ph/file/3e83c64826b3cba066-16cffa90cd682570da.jpg")
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/the_songoku")
+QR_PIC = os.environ.get("QR_PIC", "https://i.ibb.co/dwZK15q3/photo-2025-08-06-15-56-13-7535502004659945488.jpg")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/nullzoro")
 #--------------------------------------------
 #Time and its price
 #7 Days
